@@ -28,6 +28,8 @@ public class Archivator {
         //лист значений из получаемой строки
         List<Character> strChars = str.chars().mapToObj(ch -> (char) ch).collect(Collectors.toList());
 
+
+        //
         Character bufCh;//текущее значение для цикла
         int cnt = 0; //счётчик
         for (int i = 0; i < strChars.size(); i++) {
